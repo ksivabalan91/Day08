@@ -17,9 +17,9 @@ public class Main {
         // System.out.println("\n");
         // ConcurrentHashMapExample.example01();
         // System.out.println("\n");
-
-        LinkedListExample.example01();
-        System.out.println("\n");
+        // LinkedListExample.example01();
+        // System.out.println("\n");
+        StackExample.example01();
 
 
         
