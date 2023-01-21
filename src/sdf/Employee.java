@@ -28,10 +28,11 @@ public class Employee implements Comparable<Employee> {
     public Integer getSalary() {return salary;}
     public void setSalary(Integer salary) {this.salary = salary;}
 
+
+
     @Override
     public String toString() {
-        return "\nstaffNo = " + staffNo + " fullName = " + fullName + "\ndepartment = " 
-        + department + " email = "+ email + "\nsalary = " + salary + "\n";
+        return staffNo +","+fullName+ ","+ department + ","+ email + ",$" + salary+"\n";
     }
 
     @Override
